@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes WiFi Disponibles</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Redes WiFi Disponibles</h1>
+        <button id="refresh-button">Actualizar Redes WiFi</button>
+        <div id="wifi-result">
+            <pre>{{ wifi_result }}</pre>
+        </div>
+    </div>
+</body>
+</html>
